@@ -11,9 +11,13 @@
     <title>Kiss Virág, Nagy Tamás - Webáruház</title>
 </head>
 <body>
-    <main>
-        <header>
+    <main class="row">
+
+        <header class="col-md-12">
             <h1>Webáruház</h1>
+        </header>
+        
+        <nav class="navbar">
             <ul class="nav">
                 <li class="nav-item">
                     <a class="nav-link" href="#">Kezdőlap</a>
@@ -25,27 +29,65 @@
                     <a class="nav-link" href="#">Mérettáblázat</a>
                 </li>
             </ul>
-        </header>
-        <article>
-            <div class="row">
+        </nav>
+
+        <aside class="row col-3">
+            <div class="border p-3">
+                <h5>Keresési feltételek</h5>
  
-    <div class="col-3">
-      <div class="border p-3">
-        <h5>Keresési feltételek</h5>
+                <div class="mb-3">
+                    <label class="form-label">A termék neve:</label>
+                    <input type="text" class="form-control" placeholder="A termék neve">
+                </div>
  
-        <div class="mb-3">
-          <label class="form-label">A termék neve:</label>
-          <input type="text" class="form-control" placeholder="A termék neve">
-        </div>
+                <div class="mb-3">
+                    <label class="form-label">Szűrés ár szerint:</label>
+                    <input type="range" class="form-range" min="0" max="100000">
+                </div>
+            </div>
+            </div>
+    
+        </aside>
+        <article class="row col-md-6">
+            <div class="card col-md-4" >
+                <h2 class="text-success">Retro Gamer Férfi Póló</h2>
+                <img class="card-img-top" src="kepek/kepek/polo1.jpg" alt="Card image">
+                <div class="card-body">
+                    <p class="card-text">A pólódat kifordítva 30 fokon, szárítógép használata nélkül mosd ki, így vigyázva a 100% pamut szövet és a nyomat minőségére. ...</p>
+                </div>
+            </div>
+
+            <div class="card col-md-4">
+                    <h2 class="text-success">Túléltem még egy meetinget</h2>
+                    <img class="card-img-top" src="kepek/kepek/polo2.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Legnépszerűbb prémium pólónk, ami garantáltan a kedvenced lesz! ....</p>
+                    </div>
+            </div>
+
+            <div class="card col-md-4">
+                    <h2 class="text-success">Az éveim múlásásval</h2>
+                    <img class="card-img-top" src="kepek/kepek/polo3.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Vicces póló , vicces ajándék, szülinapi ajándék! ...</p>
+                    </div>
+            </div>
+
+            <div class="card col-md-4">
+                    <h2 class="text-success">I hate...</h2>
+                    <img class="card-img-top" src="kepek/kepek/polo4.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Divatos póló, akár hétköznapi viseletként is megállja a helyét , nagyon jó minőségű anyaga miatt. Az általunk gyártott pólóknál nem kell attól tartanod, hogy kinyúlik az anyag.</p>
+                    </div>
+            </div>
+
+            <div class="card col-md-4">
+                    <h2 class="text-success">Képzeld el az életet</h2>
+                    <img class="card-img-top" src="kepek/kepek/polo5.jpg" alt="Card image">
+                    <div class="card-body">
+                        <p class="card-text">Népszerű pólómárka, ami már nálunk is elérhető ...</p>
+                    </div>
+            </div>
  
-        <div class="mb-3">
-          <label class="form-label">Szűrés ár szerint:</label>
-          <input type="range" class="form-range" min="0" max="100000">
-        </div>
-      </div>
-    </div>
+            </div>
         </article>
-    </main>
-</body>
-</html>
- 
